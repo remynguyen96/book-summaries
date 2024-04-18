@@ -1,0 +1,12 @@
+{
+  "vimMode": true,
+  "legacyEditor": false,
+  "tabSize": 4,
+  "spellcheck": true,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "autoConvertHtml": true,
+  "emacsyKeys": false,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false
+}
