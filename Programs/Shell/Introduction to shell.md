@@ -9,6 +9,13 @@ In order to see everything underneath a directory, no matter how deeply nested i
 ##### `cd`
 Which stands for "change directory". More often, though, you will take advantage of the fact that the special path `..` (two dots with no spaces) means "the directory above the one I'm currently in". If you are in `/home/repl/seasonal`, then `cd ..` moves you up to `/home/repl`
 (Remember to put a space between `cd` and `..` - it is a command and a path, not a single four-letter command). One final special path is `~` (the tilde character), which means "your home directory", such as `/home/repl`. No matter where you are, `ls ~` will always list the contents of your home directory, and `cd ~` will always take you home.
+##### `sed`
+Does pattern-matched string replacement
+
+```sh
+$ echo cat cabbage | sed 's/a/@/g'
+#output: c@t c@bb@ge
+```
 ##### `cp`
 Which is short for "copy".  
 `cp original.txt duplicate.txt`: Creates a copy of `original.txt` called `duplicate.txt`. If there already was a file called `duplicate.txt`, it is overwritten
@@ -106,6 +113,14 @@ first:second:third:
 - `-n`: print line numbers for matching lines
 - `-v`: invert the match, i.e., only show lines that _don't_ match
 Remember, it's considered good style to put all of the flags _before_ other values like filenames or the search term. E.g. `grep -n -v molar seasonal/spring.csv`
+
+```sh
+cat two_cities.txt | grep 'Sydney Carton\|Charles Darnay' | wc -l
+cat two_cities.txt | grep -E 'Sydney Carton|Charles Darnay' | wc -l
+# or escape metacharacters with egrep
+cat two_cities.txt | egrep 'Sydney Carton|Charles Darnay' | wc -l
+```
+
 ##### How can I store a command's output in a file?
 If you run this command instead. So nothing appears on the screen
 ```sh
@@ -208,3 +223,71 @@ done
 (You don't have to indent the commands inside the loop, but doing so makes things clearer.)
 ###### What happens when I don't provide filenames?
 A common mistake in shell scripts (and interactive commands) is to put filenames in the wrong place. If you type: `tail -n 3` then since `tail` hasn't been given any filenames, it waits to read input from your keyboard. Use `Ctrl` + `C` to stop the running `tail` program.
+##### `sed`
+Does pattern-matched string replacement
+`sed -r`: In some engines, you need to escape metacharacters such as `+` and `?`. In others, you don't.
+```sh
+$ echo hello beep boop | sed 's/b..p/XXXX/g'
+#Output: hello XXXX XXXX
+
+echo 'beep and boop' | sed 's/[a-f]/X/g'
+#Output: XXXp XnX Xoop
+
+echo 'beep boop' | sed 's/[^aeiou]/Z/g' # negated character class [^...]
+#Output: ZeeZZZooZ
+```
+
+Flags: `s/PATTERN/REP/FLAGS` or `/PATTERN/FLAGS`
+- i - case insensitive
+- g - match all occurences (global)
+- m - treat string as multiple lines
+- s - treat string as a single line
+
+Metacharacters:
+- `.` matches any character
+- `[]` - character class
+- `^` - anchor at the beginning
+- `$` - anchor to the end
+- `(a|b)` - match a or b
+- `()` - capture group
+- `(?:)` non capture group
+- `\d` - digit `[0-9]`
+- `\w` - word `[A-Za-z0-9_]`
+- `\s` - whitespace `[ \t\r\n\f]`
+Quantifier:
+- `?` - zero or one time
+- `*` - zero or more times
+- `+` - one or more times
+
+```sh
+$ echo 'dog and doge' | sed 's/doge\?/DOGE/g'
+DOGE and DOGE
+$ echo 'beep bp beeeeep' | sed 's/be*p/BEEP/g'
+BEEP BEEP BEEP
+$ echo 'beep bp beeeeep' | sed 's/be\+p/BEEP/g'
+BEEP bp BEEP
+```
+
+Character class sequences:
+- `\w` - word character: `[A-Za-z0-9_]`
+- `\W` - non-word character: `[^A-Za-z0-9_]`
+- `\s` - whitespace: `[ \t\r\n\f]`
+- `\S` - non-whitespace: `[^ \t\r\n\f]`
+- `\d` - digit: `[0-9]`
+- `\D` - non-digit: `[^0-9]`
+
+Group:
+- `()` capture group
+- `(?:)` non capture group
+
+```sh
+$ echo 'hey <cool> whatever' | sed -r 's/<([^>]+)>/(\1)/g'
+# output: hey (cool) whatever
+
+# back references in sed
+$ echo 'hey cool cool beans' | sed -r 's/(\S+) \1/REPEATED/'
+# output: hey REPEATED beans
+
+``` 
+#### References:
+https://github.com/FrontendMasters/fmmn/blob/master/day1/regex.md

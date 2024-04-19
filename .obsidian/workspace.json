@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aaa69815654aae21",
+        "id": "b4a6648bc270a02c",
         "type": "tabs",
         "children": [
           {
-            "id": "11ed3c9185ed2e3d",
+            "id": "e729407674744714",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agile-Scrum/Scrum XP and the trenches/13. How we handle geographically distributed teams.md",
+                "file": "Programs/Shell/Data processing in Shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5110321044922
+    "width": 379.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "a17d2679f8f0aa31",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agile-Scrum/Scrum XP and the trenches/13. How we handle geographically distributed teams.md",
+                "file": "Programs/Shell/Data processing in Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Agile-Scrum/Scrum XP and the trenches/13. How we handle geographically distributed teams.md",
+                "file": "Programs/Shell/Data processing in Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Agile-Scrum/Scrum XP and the trenches/13. How we handle geographically distributed teams.md"
+                "file": "Programs/Shell/Data processing in Shell.md"
               }
             }
           },
@@ -170,10 +171,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "11ed3c9185ed2e3d",
+  "active": "e729407674744714",
   "lastOpenFiles": [
-    "Agile-Scrum/Scrum XP and the trenches/7. How we do sprint retrospectives.md",
+    "Programs/Shell/Data processing in Shell.md",
+    "Programs/Shell/Bash script anatomy.md",
+    "test.sh",
     "Programs/Shell/Introduction to shell.md",
+    "Agile-Scrum/Scrum XP and the trenches/13. How we handle geographically distributed teams.md",
+    "Agile-Scrum/Scrum XP and the trenches/7. How we do sprint retrospectives.md",
     "Code Reviews.md",
     "Programs/Shell",
     "Programs/JavaScript/React/Reuseability.md",
@@ -213,10 +218,6 @@
     "JavaScript/React/Reuseability/Untitled.md",
     "Images/React",
     "JavaScript/React/Reuseability/Button - props review challenge.md",
-    "Programs/JavaScript/Functional Programming/Chapter 4. Toward modular, reusable code.md",
-    "JavaScript/React/Reuseability",
-    "Programs/JavaScript/Functional Programming/Chapter 3. Few data structures, many operations.md",
-    "Programs/JavaScript/Functional Programming/Chapter 2. Higher-order JavaScript.md",
-    "Images/Functional Programming"
+    "JavaScript/React/Reuseability"
   ]
 }
