@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b4a6648bc270a02c",
+        "id": "f1473d0e4fdb43de",
         "type": "tabs",
         "children": [
           {
-            "id": "e729407674744714",
+            "id": "67b8ad7939f846c8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programs/Shell/Data processing in Shell.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programs/Shell/Data processing in Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programs/Shell/Data processing in Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programs/Shell/Data processing in Shell.md"
-              }
+              "state": {}
             }
           },
           {
@@ -171,15 +163,31 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "e729407674744714",
+  "active": "67b8ad7939f846c8",
   "lastOpenFiles": [
+    "Programs/JavaScript/Functional Programming/Currying.js",
+    "Learning - How to Learn.md",
+    "Untitled.md",
+    "Secrets.md",
+    "Programs/JavaScript/Design Patterns.md",
+    "Programs/JavaScript/Style Guidelines.md",
+    "Prompt Engineering Basics.md",
+    "README.md",
+    "Programs/Dockers/Introduction to Docker.md",
+    "Images/Dockers/DockerFiles.png",
+    "Images/Dockers/Docker deamon.png",
+    "Images/Dockers/Docker-Engine.png",
+    "Images/Dockers",
+    "Programs/Dockers",
+    "Code Reviews.md",
+    "Financial Analytics/Financial Analytics In Google Sheets.md",
+    "Financial Analytics",
     "Programs/Shell/Data processing in Shell.md",
     "Programs/Shell/Bash script anatomy.md",
     "test.sh",
     "Programs/Shell/Introduction to shell.md",
     "Agile-Scrum/Scrum XP and the trenches/13. How we handle geographically distributed teams.md",
     "Agile-Scrum/Scrum XP and the trenches/7. How we do sprint retrospectives.md",
-    "Code Reviews.md",
     "Programs/Shell",
     "Programs/JavaScript/React/Reuseability.md",
     "Programs/JavaScript/React/React Router 6.md",
@@ -202,22 +210,6 @@
     "Programs/JavaScript/The Principles of Object-Oriented JavaScript/4. Constructors and Prototypes.md",
     "Programs/JavaScript/Understanding JS Promises/4. Async functions - making promises friendly.md",
     "Images/The Principles of Object-Oriented JavaScript/Constructor Inheritance.png",
-    "Images/The Principles of Object-Oriented JavaScript/Constructors and Prototypes - 1.png",
-    "Images/The Principles of Object-Oriented JavaScript/Using Prototypes with Constructors.png",
-    "Images/The Principles of Object-Oriented JavaScript/The Promise Lifecycle.png",
-    "Images/The Principles of Object-Oriented JavaScript",
-    "Images/The Principles of Object-Oriented JavaScript/Object Inheritance.png",
-    "Agile-Scrum/Scrum XP and the trenches/12. How we handle multiple Scrum teams.md",
-    "Tips for learning a language.md",
-    "Technical Writing.md",
-    "Setup a new Macbook.md",
-    "Secrets.md",
-    "Career Readiness.md",
-    "Programs/JavaScript/Style Guidelines.md",
-    "Untitled 1.md",
-    "JavaScript/React/Reuseability/Untitled.md",
-    "Images/React",
-    "JavaScript/React/Reuseability/Button - props review challenge.md",
-    "JavaScript/React/Reuseability"
+    "Images/The Principles of Object-Oriented JavaScript/Constructors and Prototypes - 1.png"
   ]
 }
