@@ -1,0 +1,17 @@
+{
+  "name": "fp-practices",
+  "version": "1.0.0",
+  "description": "Foundation functional programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "qunit"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.30.0"
+  },
+  "devDependencies": {
+    "accounting-js": "^1.1.1",
+    "qunit": "^2.20.1"
+  }
+}
