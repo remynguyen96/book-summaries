@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f1473d0e4fdb43de",
+        "id": "689256bcf0363489",
         "type": "tabs",
         "children": [
           {
-            "id": "67b8ad7939f846c8",
+            "id": "2deb511dde9d882a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5110321044922,
-    "collapsed": true
+    "width": 365.5
   },
   "right": {
     "id": "a17d2679f8f0aa31",
@@ -158,20 +157,26 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "notion-like-tables:Create Notion-Like table": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "publish:Publish changes...": false
     }
   },
-  "active": "67b8ad7939f846c8",
+  "active": "2deb511dde9d882a",
   "lastOpenFiles": [
-    "Programs/JavaScript/Functional Programming/Currying.js",
-    "Learning - How to Learn.md",
-    "Untitled.md",
     "Secrets.md",
-    "Programs/JavaScript/Design Patterns.md",
-    "Programs/JavaScript/Style Guidelines.md",
     "Prompt Engineering Basics.md",
+    "Learning - How to Learn.md",
+    "Programs/JavaScript/Proxy.md",
+    "Images/JavaScript/Proxy.png",
+    "Images/JavaScript",
+    "Pasted image 20240526091953.png",
+    "2024-05-26.md",
+    "Untitled.table",
+    "Untitled 1.table",
+    "Programs/JavaScript/Style Guidelines.md",
+    "Programs/JavaScript/Functional Programming/Currying.js",
+    "Untitled.md",
+    "Programs/JavaScript/Design Patterns.md",
     "README.md",
     "Programs/Dockers/Introduction to Docker.md",
     "Images/Dockers/DockerFiles.png",
@@ -199,17 +204,9 @@
     "Images/React/SPAs.png",
     "Agile-Scrum/More Effective Agile/Why effective Agile matters.md",
     "Agile-Scrum/More Effective Agile/Responding to the challenges of complexity and uncertainly.md",
-    "Untitled.table",
     "Images/More Effective Agile/The Cynefin framework.png",
     "Agile-Scrum/More Effective Agile",
     "Images/More Effective Agile/Most teams don’t apply Scrum's key elements effectively.png",
-    "Images/More Effective Agile",
-    "Programs/JavaScript/React/Challenges",
-    "Programs",
-    "English/Unit4 - Travel and transport/Speaking.md",
-    "Programs/JavaScript/The Principles of Object-Oriented JavaScript/4. Constructors and Prototypes.md",
-    "Programs/JavaScript/Understanding JS Promises/4. Async functions - making promises friendly.md",
-    "Images/The Principles of Object-Oriented JavaScript/Constructor Inheritance.png",
-    "Images/The Principles of Object-Oriented JavaScript/Constructors and Prototypes - 1.png"
+    "English/Unit4 - Travel and transport/Speaking.md"
   ]
 }

@@ -8,5 +8,6 @@
   "autoConvertHtml": true,
   "emacsyKeys": false,
   "alwaysUpdateLinks": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "rightToLeft": false
 }
