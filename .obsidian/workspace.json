@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "689256bcf0363489",
+        "id": "18f81876bc886b12",
         "type": "tabs",
         "children": [
           {
-            "id": "2deb511dde9d882a",
+            "id": "69fea593c4ba1de6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Programs/JavaScript/React/HOC.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 365.5,
+    "collapsed": true
   },
   "right": {
     "id": "a17d2679f8f0aa31",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programs/JavaScript/React/HOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programs/JavaScript/React/HOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programs/JavaScript/React/HOC.md"
+              }
             }
           },
           {
@@ -161,12 +170,29 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "2deb511dde9d882a",
+  "active": "69fea593c4ba1de6",
   "lastOpenFiles": [
+    "Programs/JavaScript/Design Patterns/Prototype.md",
+    "Programs/JavaScript/React/HOC.md",
+    "Programs/JavaScript/React/Reuseability.md",
+    "Programs/JavaScript/React/React Router 6.md",
+    "Programs/JavaScript/React/Performance.md",
+    "Programs/JavaScript/React/Pitfall.md",
+    "Programs/JavaScript/Design Patterns/Observer.md",
+    "Programs/JavaScript/Design Patterns/Proxy.md",
+    "Images/JavaScript/Prototype Pattern.png",
+    "Pasted image 20240602151624.png",
+    "Programs/JavaScript/The Principles of Object-Oriented JavaScript/4. Constructors and Prototypes.md",
+    "Programs/JavaScript/The Principles of Object-Oriented JavaScript/3. Understanding Objects.md",
+    "Programs/JavaScript/Design Patterns/References.md",
+    "Setup a new Macbook.md",
+    "open",
     "Secrets.md",
+    "README.md",
+    "Technical Writing.md",
+    "Programs/JavaScript/Design Patterns",
     "Prompt Engineering Basics.md",
     "Learning - How to Learn.md",
-    "Programs/JavaScript/Proxy.md",
     "Images/JavaScript/Proxy.png",
     "Images/JavaScript",
     "Pasted image 20240526091953.png",
@@ -176,8 +202,6 @@
     "Programs/JavaScript/Style Guidelines.md",
     "Programs/JavaScript/Functional Programming/Currying.js",
     "Untitled.md",
-    "Programs/JavaScript/Design Patterns.md",
-    "README.md",
     "Programs/Dockers/Introduction to Docker.md",
     "Images/Dockers/DockerFiles.png",
     "Images/Dockers/Docker deamon.png",
@@ -191,22 +215,8 @@
     "Programs/Shell/Bash script anatomy.md",
     "test.sh",
     "Programs/Shell/Introduction to shell.md",
-    "Agile-Scrum/Scrum XP and the trenches/13. How we handle geographically distributed teams.md",
-    "Agile-Scrum/Scrum XP and the trenches/7. How we do sprint retrospectives.md",
-    "Programs/Shell",
-    "Programs/JavaScript/React/Reuseability.md",
-    "Programs/JavaScript/React/React Router 6.md",
-    "Programs/JavaScript/React/Pitfall.md",
-    "Programs/JavaScript/React/Performance.md",
-    "Programs/JavaScript/React/Challenges/Video Game Button.md",
     "Images/React/Nested-UI.png",
     "Images/React/MPAs.png",
-    "Images/React/SPAs.png",
-    "Agile-Scrum/More Effective Agile/Why effective Agile matters.md",
-    "Agile-Scrum/More Effective Agile/Responding to the challenges of complexity and uncertainly.md",
-    "Images/More Effective Agile/The Cynefin framework.png",
-    "Agile-Scrum/More Effective Agile",
-    "Images/More Effective Agile/Most teams don’t apply Scrum's key elements effectively.png",
-    "English/Unit4 - Travel and transport/Speaking.md"
+    "Images/React/SPAs.png"
   ]
 }

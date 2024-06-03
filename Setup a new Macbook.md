@@ -8,3 +8,7 @@
 6. Install TMUX
 	1. https://github.com/tmux/tmux/wiki/Installing
 	2. https://gist.github.com/ryin/3106801
+7. Install via binary file
+	- tar xvzf $file.tar
+	- xattr -c $file
+	
