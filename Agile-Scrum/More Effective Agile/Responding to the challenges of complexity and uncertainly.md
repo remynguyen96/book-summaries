@@ -9,7 +9,7 @@ Cynefin (pron: K'nevin) a “sensemaking framework.” It helps in understanding
 
 The Cynefin framework consists of five domains. Each domain has its own attributes and suggested responses. The domains are illustrated below.
 
-![[The Cynefin framework.png]]
+![[The_Cynefin_Framework.png]]
 The domains are not considered to be categories; rather they are considered to be clusters of meanings, which is the source of the “habitat” emphasis in the name.
 
 ##### Obvious domain

@@ -4,7 +4,7 @@ Selective, well-informed use of modern Agile practices offers a proven path towa
 
 Unfortunately, most organizations are not realizing the potential of Agile practices because most implementations of Agile practices are not effective. For example, Scrum is the most common Agile practice, and it can be incredibly powerful, yet we have most often seen it implemented in ways that fail to realize its benefits. The diagram below compares the average Scrum team my company has seen to a healthy Scrum team.
 
-![[Most teams don’t apply Scrum's key elements effectively.png]]
+![[Most_teams_don’t_apply_Scrum's_key_elements_effectively.png]]
 
 We typically see only one of Scrum’s key elements being applied effectively (daily scrum/standup), and even that’s far from universal. The rest of Scrum’s elements are applied sporadically or not at all. 
 
