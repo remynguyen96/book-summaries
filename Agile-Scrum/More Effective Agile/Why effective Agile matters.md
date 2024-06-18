@@ -1,10 +1,9 @@
 Companies want more effective software development for its own sake. They also want more effective software development because software enables so many other business functions. The _State of DevOps Report_ found that, “Firms with high-performing IT organizations were twice as likely to exceed their profitability, market share, and productivity goals” (Puppet Labs, 2014). High-performing companies were twice as likely to meet or exceed their goals for customer satisfaction, quality and quantity of work, operating efficiency, and other objectives.
-
 Selective, well-informed use of modern Agile practices offers a proven path toward more effective software development and all the benefits that go with it.
 
 Unfortunately, most organizations are not realizing the potential of Agile practices because most implementations of Agile practices are not effective. For example, Scrum is the most common Agile practice, and it can be incredibly powerful, yet we have most often seen it implemented in ways that fail to realize its benefits. The diagram below compares the average Scrum team my company has seen to a healthy Scrum team.
 
-![[Most_teams_don’t_apply_Scrum's_key_elements_effectively.png]]
+![Most_teams_don’t_apply_Scrum's_key_elements_effectively.png](images/Most_teams_don’t_apply_Scrum's_key_elements_effectively.png)
 
 We typically see only one of Scrum’s key elements being applied effectively (daily scrum/standup), and even that’s far from universal. The rest of Scrum’s elements are applied sporadically or not at all. 
 
