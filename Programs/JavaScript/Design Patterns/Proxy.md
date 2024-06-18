@@ -1,7 +1,7 @@
 A wrapper object that lets you intercept and modify operations performed on the wrapped object, allowing you to add custom behavior or validation to the object's properties and methods.
 We can use a proxy for validation, data binding and reactive programming.
 
-![[Proxy.png]]
+![Proxy.png](images/Proxy.png)
 
 The syntax:
 
@@ -121,3 +121,9 @@ user = wrap(user);
 alert(user.name); // John
 alert(user.age); // ReferenceError: Property doesn't exist: "age"
 ```
+
+
+
+### TODO:
+https://humanwhocodes.com/blog/2014/04/22/creating-defensive-objects-with-es6-proxies/
+https://humanwhocodes.com/blog/2014/04/29/creating-type-safe-properties-with-ecmascript-6-proxies/

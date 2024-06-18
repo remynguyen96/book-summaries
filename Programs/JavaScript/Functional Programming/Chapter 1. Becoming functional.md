@@ -18,7 +18,7 @@ FP requires a shift in the way you think about problems. FP isn’t a new tool o
 
 FP requires you to think a bit differently about how to approach the tasks you’re facing. It’s not a matter of just applying functions to come up with a result; the goal, rather, is to **_abstract control flows** and **operations_** on data with functions in order to **_avoid side effects_** and **_reduce mutation of state_** in your application.
 
- Fundamental concepts in FP: 
+ Fundamental concepts in FP:
  - Declarative programming
  - Pure functions
  - Referential transparency
@@ -26,7 +26,7 @@ FP requires you to think a bit differently about how to approach the tasks you�
 
 ### Functional programming is declarative
 
-The more popular models used today, though, are **_imperative_** or **_procedural_**, and are supported in most structured and object-oriented languages like Java, C#, C++, and others. **Imperative programming** treats a computer program as merely a sequence of top-to-bottom statements that changes the state of the system in order to compute a result. 
+The more popular models used today, though, are **_imperative_** or **_procedural_**, and are supported in most structured and object-oriented languages like Java, C#, C++, and others. **Imperative programming** treats a computer program as merely a sequence of top-to-bottom statements that changes the state of the system in order to compute a result.
 
 Let’s look at a simple imperative example. Suppose you need to square all the numbers in an array. An imperative program follows these steps:
 
@@ -54,7 +54,7 @@ Shifting to a functional approach to tackle this same task, you only need to be 
 
 Functional programming is based on the premise that you build immutable programs based on the building blocks of pure functions. A pure function has the following qualities:
 - It depends only on the input provided and not on any hidden or external state that may change during its evaluation or between calls.
-- It doesn’t inflict changes beyond their scope, such as modifying a global object or a parameter passed by reference. 
+- It doesn’t inflict changes beyond their scope, such as modifying a global object or a parameter passed by reference.
 
 This function is impure because it reads/modifies an external variable, `counter`, which isn’t local to the function’s scope.
 ```ts
@@ -64,7 +64,7 @@ function increment() {
 }
 ```
 
-![[Pure functions and the problem with side effects.png]]
+![Pure_functions_and_the_problem_with_side_effects.png](images/Pure_functions_and_the_problem_with_side_effects.png)
 
  Another common side effect occurs when accessing instance data via the this keyword. The behavior of this in JavaScript is unlike it is in any other programming language because it determines the runtime context of a function. This often leads to code that’s hard to reason about, which is why I avoid it when possible.
 Side effects can occur in many situations, including these:

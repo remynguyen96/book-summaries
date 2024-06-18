@@ -4,13 +4,13 @@
 - React.StrictMode
 - Code Splitting
 - `useMemo`
-	- To remember calculated values between renders. 
+	- To remember calculated values between renders.
 	- Avoid recalculation expensive calculations if it's not necessary.
 	- Maintain referential equality of a complex data type between renders.
 - `React.memo`
 	- Memoizes a component if the props don't change from one render to the next.
 	- The rendering phase in React isn't usually slow/expensive. It's more important to [fix slow renders](https://kentcdodds.com/blog/fix-the-slow-render-before-you-fix-the-re-render) before worrying about reducing re-renders.
-- `useCallback` 
+- `useCallback`
 	- For caching function definitions.
 	- Maintaining reference to functions between renders
 
@@ -21,7 +21,7 @@
 - Re-structure the application
 #### How React Renders
 React will render all of components in application recursively
-![[Recursive Rendering.png]]
+![Recursive_Rendering.png](images/Recursive_Rendering.png)
 #### What actually happens during a re-render?
 State Change -> Render -> Reconciliation -> Commit to DOM
 
@@ -45,7 +45,7 @@ Ref: https://react.dev/reference/react/StrictMode
 - Splits up download times, so your main feature aren't blocked by slow connections.
 - Sometimes bypassed unneeded code altogether
 #### How does it work?
-- Uses dynamic import function - `import()` 
+- Uses dynamic import function - `import()`
 - Combine `import()` with `React.lazy()` to only load a heavy component if needed. Use `React.lazy()` to create a suspending component
 - Use `<React.Suspense>` component to provide a fallback UI while the `lazy` component is loading. The prop to give `React` something to render in the meantime while it's downloading all the code for the suspended component.
 #### What is referential equality?

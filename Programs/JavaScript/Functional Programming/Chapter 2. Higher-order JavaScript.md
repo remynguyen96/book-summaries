@@ -10,7 +10,7 @@ _This chapter covers_
  The focus of OOP is to create inheritance hierarchies (such as Student from Parent) with methods and data tightly bound together. Functional programming, on the other hand, favors general polymorphic functions that crosscut different data types and avoid the use of **this**.
 
  In essence, what inheritance does for OOP, composition does for FP in terms of applying new behavior to different data types.
- 
+
 |  | Functional | Object-oriented |
 | ---- | ---- | ---- |
 | **Unit of composition** | Functions | Objects (classes) |
@@ -90,12 +90,12 @@ person.firstname = 'Bob' // Not allowed 🚫
 
 `Object.freeze()` can also immobilize inherited attributes. So freezing an instance of Student works exactly the same way and follows the object’s prototype chain protecting every inherited Person attribute. But it can’t be used to freeze nested object attributes.
 
-![[Object.freeze.png]]
+![Object.freeze.png](images/Object.freeze.png)
 
 Although the Person type has been frozen, its internal object properties (like `_address`) haven’t. So `person.address.country` is eligible to be changed at any time. Because only the top-level variables are frozen, this is a shallow freeze.
 `Object.freeze()` is a shallow operation. To get around this, you need to manually freeze an object’s nested structure.
 
-![[Recursive-Object.freeze.png]]
+![Recursive-Object.freeze.png](images/Recursive-Object.freeze.png)
 
 Next, I discuss the best alternative to centrally managing object changes immutably using a functional approach called _lenses_.
 
@@ -112,11 +112,11 @@ const lastnameLens = R.lenseProp('lastname');
 const newPerson = R.set(lastnameLens, 'Mourning', person);
 
 // You can use R.view to read the contents of this property:
-R.view(lastnameLens, person); //-> 'Church' 
+R.view(lastnameLens, person); //-> 'Church'
 ```
 
 Now you have getter and setter semantics in a functional way. **Lenses** also fit extremely well with FP’s philosophy of isolating field-access logic away from the object, eliminating the reliance on this, and giving you powerful functions that know how to reach into and manipulate the contents of any object.
-#### Functions 
+#### Functions
 
 We can distinguish between _expressions_ (functions that produce a value) and _statements_ (functions that don’t). Imperative and procedural programming are mostly made up of ordered sequences of statements; but FP is entirely expressional, so void functions don’t serve a purpose in this paradigm.
 
@@ -150,13 +150,13 @@ Because functions are first-class and higher-order, JavaScript functions can _b
 
 **A noticeable pattern** that occurs in languages like JavaScript is that function names can be **passive nouns** like multiplier, comparator, and action. Because they’re first-class, functions can be assigned to variables and executed at a later time. Let’s refactor printPeople to take full advantage of higher-order functions:
 
-![[HOC.png]]
+![HOC.png](images/HOC.png)
 
 #### Function methods
 
 JavaScript supports calling functions via the function methods (like meta-functions) `call` and `apply`, which belong to the function’s prototype. Both methods are used extensively when scaffolding code is built so that API users can create new functions from existing ones.
 
-![[Function-Methods.png]]
+![Function-Methods.png](images/Function-Methods.png)
 
 ```ts
 Function.prototype.apply(thisArg, [argsArray])
@@ -178,4 +178,4 @@ A _closure_ is a data structure that binds a function to its environment at th
 
  In essence, a closure is a function’s inheritance of scopes akin to how an object’s method has access to its inherited instance variables—both have references to their parents. Closures are readily seen in the case of nested functions. Here’s a quick example:
  
-![[Closures.png]]
+![Closures.png](images/Closures.png)

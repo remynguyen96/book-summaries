@@ -4,7 +4,7 @@ If we want to share properties among many objects of the same type, we can use t
 
 The Prototype Pattern in JavaScript leverages the language's built-in prototypal inheritance to create objects that share properties and methods with a prototype object. This pattern is particularly useful for creating objects that need to share behavior or for optimizing the creation process of complex objects. By using the `Object.create` method, developers can efficiently clone and extend objects, making the Prototype Pattern a powerful tool in JavaScript development.
 
-![[Prototype Pattern.png]]
+![Prototype_Pattern](images/Prototype_Pattern.png)
 
 ### Implementation
 

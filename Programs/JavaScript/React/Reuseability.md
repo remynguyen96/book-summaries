@@ -2,7 +2,7 @@
 
 > **Prop drilling** happens when a component down the component tree needs access to data in a grandparent (or higher) component, and that data is manually passed down to each child component until it finally reaches the component that needs in.
 
-![[Prop drilling.png]]
+![Prop_drilling.png](images/Prop_drilling.png)
 
 ##### Solutions to~ prop drilling
 - Do nothing!
@@ -12,10 +12,10 @@
 	- Easily pass props to more deeply-nested components
 - Context
 	- Access state directly from the components that need it
-	
+
 ### Compound components
 
-HTML Examples: 
+HTML Examples:
 ```html
 - <form>, <input>
 - <ul>, <li>
@@ -39,7 +39,7 @@ HTML Examples:
 => Compound component "flatten" the heirarchy that I would otherwise need to pass props through. Since I need to provide the children to render, the parent-most component has direct access to those "grandchild" components, to which it can pass whatever props it needs to pass directly.
 ##### Implementation
 
-![[Prop Drilling Implementation.png]]
+![Prop_Drilling_Implementation.png](images/Prop_Drilling_Implementation.png)
 
 ```jsx
 // App.tsx
@@ -80,7 +80,7 @@ export default function Menu({ children }) {
 
 // MenuButton.jsx
 export default function MenuButton({ children, onClick }) {
-	return <Button onClick={onClick}>{children}</Button> 
+	return <Button onClick={onClick}>{children}</Button>
 }
 
 // MenuDropdown.jsx
@@ -144,22 +144,22 @@ export default function Menu({ children }) {
 	function toggle() {
 		setOpen(prevOpen => !prevOpen)
 	}
-	
+
 	return (
 		<div className="menu">
 			{React.Children.map(children, (child) => {
 				 return React.cloneElement(child, {
 					 open,
 					 toggle
-				 })			 
-			})}	
+				 })
+			})}
 		</div>
 	)
 }
 
 // MenuButton.jsx
 export default function MenuButton({ children, toggle }) {
-	return <Button onClick={toggle}>{children}</Button> 
+	return <Button onClick={toggle}>{children}</Button>
 }
 
 // MenuDropdown.jsx
@@ -210,11 +210,11 @@ const MenuContext = React.createContext()
 export default function Menu({ children }) {
 	const menuId = React.useId();
 	const [open, setOpen] = React.useState(true)
-	
+
 	function toggle() {
 		setOpen(prevOpen => !prevOpen)
 	}
-	
+
 	return (
 		<MenuContext.Provider value={{ menuId, open, toggle }}>
 			<div className="menu" role="menu">
@@ -232,7 +232,7 @@ export default function MenuButton({ children }) {
 			onClick={toggle}
 			aria-expanded={open}
 			aria-haspopup="true"
-			aria-controls={menuId}>								
+			aria-controls={menuId}>
 			{children}
 		</Button>
 	)
@@ -300,7 +300,7 @@ function App() {
 		</Decision>
 	)
 }
-  
+
 export default function Decision({ children }) {
 	const [goingOut, setGoingOut] = React.useState(false)
 	function toggleGoingOut() {
@@ -324,7 +324,7 @@ export default function Decision({ children }) {
 - etc.
 **Custom**
 - Combine existing hooks into custom, reusable pieces of logics
-- Similar to regular utility functions, but use hooks to access the render cycles of React. 
+- Similar to regular utility functions, but use hooks to access the render cycles of React.
 
 
 

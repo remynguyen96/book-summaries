@@ -24,7 +24,7 @@ _Arity_ can be defined as the number of arguments a function accepts; it’s al
 function isValid(str) {
 	...
 }
-=> Easy to use 
+=> Easy to use
 
 // makeAsyncHttp :: String, String, Array -> Boolean
 function makeAsyncHttp(method, url, data) {
@@ -39,7 +39,7 @@ Tuples are immutable structures that pack together items of different types so t
 
 ```ts
 return {
-   status : false,   
+   status : false,
    message: 'Input is too long!'
 };
 
@@ -60,15 +60,15 @@ Passing a function’s return value as input to a unary function is straightforw
 >Calling a non-curried function with missing arguments causes the function to eagerly evaluate missing parameters and fill them with undefined.
 >`Evaluating: f(a) -----> Runs as: f(a, undefined, undefined)`
 
-On the other hand, a curried function is one where all arguments have been explicitly defined so that, when called with a subset of the arguments, it returns a new function that waits for the rest of the parameters to be supplied before running. 
+On the other hand, a curried function is one where all arguments have been explicitly defined so that, when called with a subset of the arguments, it returns a new function that waits for the rest of the parameters to be supplied before running.
 
-![[Curry.png]]
+![Curry.png](images/Curry.png)
 Currying is a technique that converts a multivariable function into a stepwise sequence of unary functions by suspending or “procrastinating” its execution until all arguments have been provided, which could happen later. Here’s the formal definition of a curry of three parameters:
 `curry(f) :: ((a,b,c) -> d) -> a -> b -> c -> d`
 
 Because JavaScript doesn’t automatically curry functions, you need to write some supporting code to enable this. Before we go into auto-currying, let’s start with a simple scenario of manually currying two arguments.
 
-![[Curry With 2 Args.png]]
+![Curry_With_2_Args.png](images/Curry_With_2_Args.png)
 
 In particular, it can be used to implement popular design patterns:
 - Emulating function interfaces
@@ -105,7 +105,7 @@ Suppose you need to configure different logging functions to handle different st
 
 There are many settings you can configure, and copying and pasting this code into each file causes lots of duplication. Instead, let’s use currying to define a reusable function template (a logger module, if you will), which will give you the utmost flexibility and reuse.
 
-![[Logger With Curry.png]]
+![Logger_With_Curry.png](images/Logger_With_Curry.png)
 Now, by currying logger, you can centrally manage and reuse appropriate loggers for each occasion:
 
 ```ts
@@ -126,7 +126,7 @@ Like currying, partial application can be used to directly reduce the length of 
 - Currying generates nested unary functions at each partial invocation. Internally, the final result is generated from the step-wise composition of these unary functions. Also, variations of curry allow you to partially evaluate a number of arguments; therefore, it gives you complete control over when and how evaluation takes place.
 - Partial application binds (assigns) a function’s arguments to predefined values and generates a new function of fewer arguments. The resulting function contains the fixed parameters in its closure and is _completely evaluated_ on the subsequent call.
 
-![[Implementation Partial.png]]
+![Implementation_Partial.png](images/Implementation_Partial.png)
 
 For this discussion of partial application and function binding, we’ll go back to using Lodash, because it has slightly better support for function binding than Ramda. On the surface, however, using  `_.partial` has a similar feel to using R.curry, and both support placeholder arguments with their respective placeholder objects. With the same logger function shown earlier, you can partially apply certain parameters to create more-specific behavior:
 
@@ -154,7 +154,7 @@ What is this undefined second argument to `_.bind`? Bind lets you create boun
 
 The intention of functional programs is to gain the required structure that leads to composition, the backbone of functional programming. By now you understand the concepts of purity and side effect–free functions that make this such a powerful technique. Recall that a side effect–free function is one that doesn’t depend on any external data; everything the function needs must be provided as arguments. In order to properly use composition, your functions must be side effect–free.
 
-Furthermore, if a program is built from pure functions, the resulting program is itself pure, allowing it to be composed further as a part of even more-complex solutions without antagonizing other parts of the system. This topic is extremely important to understand, because it will be the central theme of the book going forward. 
+Furthermore, if a program is built from pure functions, the resulting program is itself pure, allowing it to be composed further as a part of even more-complex solutions without antagonizing other parts of the system. This topic is extremely important to understand, because it will be the central theme of the book going forward.
 
 In essence, _functional composition_ is a process used to group together complex behavior that has been broken into simpler tasks.
 
@@ -167,7 +167,7 @@ In essence, _functional composition_ is a process used to group together compl
 Recall that with referential transparency, functions are nothing more than arrows connecting one object of a group to another.
 This leads to another important software development principle, which is the backbone of modular systems. Because composition loosely binds type-compatible functions at their boundaries (inputs and outputs), it fairly satisfies the principle of _programming to interfaces_
 
-![[Implementation of compose.png]]o
+![Implementation_of_compose.png](images/Implementation_of_compose.png)o
 
 Composition is a _conjunctive operation_, which means it joins elements using a logical AND operator. For instance, the function `isValidSsn` is made from `checkLengthSsn` _and_ `cleanInput`.  In [chapter 5](https://learning.oreilly.com/library/view/functional-programming-in/9781617292828/kindle_split_013.html#ch05), we’ll tackle problems that require disjunctive behavior to express conditions where functions can return one of two results, A OR B.
 

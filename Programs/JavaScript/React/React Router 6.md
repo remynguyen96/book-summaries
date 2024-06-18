@@ -1,5 +1,5 @@
-![[MPAs.png]]
-![[SPAs.png]]
+![MPAs.png](images/MPAs.png)
+![SPAs.png](images/SPAs.png)
 
 
 1. What is a route/url parameter?
@@ -8,7 +8,7 @@ A portion of our route path that is a placeholder for what will eventually be th
 2. Add a route parameter called `productId` to the Route path below:
 ```jsx
 	<Route path="/products/:productId" element={<ProductDetail />} />
-``` 
+```
 
 3. Add whatever you need to add for the component below to display the route parameter in the `<h1>`
 
@@ -28,7 +28,7 @@ function ProductDetail() {
 - Shared UI
 	- Often parts of the page are shared within the same route.
 
-![[Nested-UI.png]]
+![Nested-UI.png](images/Nested-UI.png)
 
 1. What is the primary reason to use a nested route?
 Whenever we have some shared UI between routes in our app.
@@ -38,7 +38,7 @@ It's the parent route of some nested routes that contains just the portion of th
 
 3. What does the `<Outlet />` component do? When do you use it?
 We use it anytime we have a parent Route that's wrapping children routes. It renders the matching child route's `element` prop given in its route definition
-  
+
 4. What is an "Index Route"?
 It's the "default route" we want to render when the path of the parent route matches. It gives us a chance to render an element inside the parent's `<Outlet />` at the same path as the parent route.
 
@@ -53,12 +53,12 @@ function App() {
 				<Route path="/" element={<Layout />}>
 					<Route index element={<Home />} />
 					<Route path="about" element={<About />} />
-	
+
 					<Route path="vans">
 						<Route index element={<Vans />} />
 						<Route path=":id" element={<VanDetail />} />
 					</Route
-	
+
 					<Route path="host" element={<HostLayout />}>
 						<Route index element={<Dashboard />} />
 						<Route path="income" element={<Income />} />
@@ -107,7 +107,7 @@ const [searchParams, setSearchParams] = useSearchParams()
 
 return (
 	<button onClick={() => setSearchParams({ type: "jedi" })}>Jedi</button>
-) 
+)
 ```
 
 ### Protected Routes
@@ -127,6 +127,6 @@ Wrapped the routes we wanted to protect in a Layout route that contains logic to
 3. What component can we render if the user IS logged in?
 `<Outlet />`
 
-![[History Stack.png]]
+![History_Stack.png](images/History_Stack.png)
 
 
