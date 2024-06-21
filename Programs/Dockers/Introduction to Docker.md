@@ -55,7 +55,7 @@ Benefits:
 | -------------------------------------------------------------------- | ---------------------------------------------------------- |
 | Build image from Dockerfile<br><br>If current working directory then | docker build /location/to/Dockerfile<br><br>docker build . |
 | Choose a name when building an image                                 | docker build -t image_name .                               |
-| Override the CMD set in the image and run interactively              | docker run -it`<image> <shell-command>                     |
+| Override the CMD set in the image and run interactively              | docker run -it`<image> <shell-command>`                    |
 | See the instructions used to create an image                         | docker history `<image_name>`                              |
 
 Instead of copying files from a local directory, files are often downloaded in the image build:
