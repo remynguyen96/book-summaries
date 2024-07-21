@@ -4,7 +4,8 @@
   "description": "Foundation functional programming",
   "main": "index.js",
   "scripts": {
-    "test": "qunit"
+    "test:all": "qunit",
+    "test": "qunit filter"
   },
   "license": "ISC",
   "dependencies": {
