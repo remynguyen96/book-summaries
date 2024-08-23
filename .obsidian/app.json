@@ -9,5 +9,6 @@
   "emacsyKeys": false,
   "alwaysUpdateLinks": true,
   "readableLineLength": false,
-  "rightToLeft": false
+  "rightToLeft": false,
+  "useMarkdownLinks": true
 }

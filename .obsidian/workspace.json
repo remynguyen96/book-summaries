@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "18f81876bc886b12",
+        "id": "461e84f87b40622f",
         "type": "tabs",
         "children": [
           {
-            "id": "69fea593c4ba1de6",
+            "id": "217c37ddc7b9860a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programs/JavaScript/React/HOC.md",
+                "file": "Programs/Refactoring - Improving the Design of Existing Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Why we introduced a “team lead” role",
+                "query": "Curry",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5,
+    "width": 364.5,
     "collapsed": true
   },
   "right": {
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programs/JavaScript/React/HOC.md",
+                "file": "Programs/Refactoring - Improving the Design of Existing Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programs/JavaScript/React/HOC.md",
+                "file": "Programs/Refactoring - Improving the Design of Existing Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programs/JavaScript/React/HOC.md"
+                "file": "Programs/Refactoring - Improving the Design of Existing Code.md"
               }
             }
           },
@@ -170,53 +170,53 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "69fea593c4ba1de6",
+  "active": "217c37ddc7b9860a",
   "lastOpenFiles": [
-    "Programs/JavaScript/Design Patterns/Prototype.md",
-    "Programs/JavaScript/React/HOC.md",
-    "Programs/JavaScript/React/Reuseability.md",
-    "Programs/JavaScript/React/React Router 6.md",
-    "Programs/JavaScript/React/Performance.md",
-    "Programs/JavaScript/React/Pitfall.md",
-    "Programs/JavaScript/Design Patterns/Observer.md",
-    "Programs/JavaScript/Design Patterns/Proxy.md",
-    "Images/JavaScript/Prototype Pattern.png",
-    "Pasted image 20240602151624.png",
-    "Programs/JavaScript/The Principles of Object-Oriented JavaScript/4. Constructors and Prototypes.md",
-    "Programs/JavaScript/The Principles of Object-Oriented JavaScript/3. Understanding Objects.md",
-    "Programs/JavaScript/Design Patterns/References.md",
-    "Setup a new Macbook.md",
-    "open",
-    "Secrets.md",
-    "README.md",
+    "Programs/TidyFirst.md",
+    "Programs/Refactoring - Improving the Design of Existing Code.md",
     "Technical Writing.md",
-    "Programs/JavaScript/Design Patterns",
+    "Setup a new Macbook.md",
+    "README.md",
     "Prompt Engineering Basics.md",
     "Learning - How to Learn.md",
-    "Images/JavaScript/Proxy.png",
-    "Images/JavaScript",
-    "Pasted image 20240526091953.png",
-    "2024-05-26.md",
-    "Untitled.table",
-    "Untitled 1.table",
-    "Programs/JavaScript/Style Guidelines.md",
-    "Programs/JavaScript/Functional Programming/Currying.js",
-    "Untitled.md",
-    "Programs/Dockers/Introduction to Docker.md",
-    "Images/Dockers/DockerFiles.png",
-    "Images/Dockers/Docker deamon.png",
-    "Images/Dockers/Docker-Engine.png",
-    "Images/Dockers",
-    "Programs/Dockers",
     "Code Reviews.md",
-    "Financial Analytics/Financial Analytics In Google Sheets.md",
-    "Financial Analytics",
-    "Programs/Shell/Data processing in Shell.md",
-    "Programs/Shell/Bash script anatomy.md",
-    "test.sh",
-    "Programs/Shell/Introduction to shell.md",
-    "Images/React/Nested-UI.png",
-    "Images/React/MPAs.png",
-    "Images/React/SPAs.png"
+    "Career Readiness.md",
+    "Programs/JavaScript/Functional Programming/Functional Programming.md",
+    "TidyFirst.md",
+    "Programs/TidyFirst.md/TidyFirst.md",
+    "Programs/JavaScript/Functional Programming/code-practices/test/either.js",
+    "Programs/JavaScript/Functional Programming/code-practices/test/either-monad copy.js",
+    "Programs/JavaScript/Functional Programming/code-practices/test/config.json",
+    "Programs/JavaScript/Functional Programming/code-practices/test/either-monad.js",
+    "Programs/JavaScript/Functional Programming/FP-Class-v2.pdf",
+    "Programs/JavaScript/Functional Programming/FP-Arch-Class.pdf",
+    "Secrets.md",
+    "Programs/JavaScript/Functional Programming/Chapter 1. Becoming functional.md",
+    "Agile-Scrum/Scrum XP and the trenches/Scrum-and-XP-from-the-Trenches-2nd-edition.pdf",
+    "Programs/JavaScript/Functional Programming/Chapter 4. Toward modular, reusable code.md",
+    "Programs/JavaScript/Functional Programming/Chapter 3. Few data structures, many operations.md",
+    "Programs/JavaScript/Functional Programming/Chapter 2. Higher-order JavaScript.md",
+    "Programs/Security/Web Security.md",
+    "Programs/Security/images/safesinks.png",
+    "Programs/Security/images",
+    "Programs/Security/images/cookie-header.png",
+    "Programs/Security",
+    "Programs/Dockers/Advance Containers.md",
+    "Programs/Dockers/Introduction to Docker.md",
+    "Programs/JavaScript/The Principles of Object-Oriented JavaScript/The lazy-loading property pattern in JavaScript.md",
+    "Programs/JavaScript/React/Reuseability.md",
+    "Programs/JavaScript/React/React Router 6.md",
+    "Programs/JavaScript/React/Pitfall.md",
+    "Programs/JavaScript/React/Performance.md",
+    "Programs/JavaScript/React/HOC.md",
+    "Programs/JavaScript/Design Patterns/images/Prototype_Pattern.png",
+    "Programs/JavaScript/Design Patterns/images/Proxy.png",
+    "Pasted image 20240618103210.png",
+    "Agile-Scrum/More Effective Agile/Pasted image 20240618103105.png",
+    "Agile-Scrum/More Effective Agile/images/The_Cynefin_Framework.png",
+    "Agile-Scrum/Scrum XP and the trenches/images/Should_acceptance_testing_be_part_of_the_sprint?.png",
+    "Agile-Scrum/Scrum XP and the trenches/images/allocate_people_to_teams.png",
+    "Agile-Scrum/Scrum XP and the trenches/images/Synchronized_sprints_2.png",
+    "Programs/JavaScript/Understanding JS Promises/images"
   ]
 }
