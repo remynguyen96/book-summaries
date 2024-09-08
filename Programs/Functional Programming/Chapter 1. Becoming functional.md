@@ -64,7 +64,7 @@ function increment() {
 }
 ```
 
-![Pure_functions_and_the_problem_with_side_effects.png](images/Pure_functions_and_the_problem_with_side_effects.png)
+![Pure_functions_and_the_problem_with_side_effects.png](Pure_functions_and_the_problem_with_side_effects.png)
 
  Another common side effect occurs when accessing instance data via the this keyword. The behavior of this in JavaScript is unlike it is in any other programming language because it determines the runtime context of a function. This often leads to code that’s hard to reason about, which is why I avoid it when possible.
 Side effects can occur in many situations, including these:
