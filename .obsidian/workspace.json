@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4e3137946f36b51f",
+        "id": "dddb352c3dd1b3f8",
         "type": "tabs",
         "children": [
           {
-            "id": "e3ba5de924186a2d",
+            "id": "1f06900ecd3e969b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "Areas/Programming/Functional Programming/FP-Arch-Class.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "FP-Arch-Class"
             }
           }
         ]
@@ -35,7 +39,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -50,7 +56,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -58,14 +66,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 291.5
   },
   "right": {
     "id": "a17d2679f8f0aa31",
@@ -81,6 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programs/JS-Performance/Introducing Web Performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +99,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Introducing Web Performance"
             }
           },
           {
@@ -97,9 +110,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programs/JS-Performance/Introducing Web Performance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Introducing Web Performance"
             }
           },
           {
@@ -110,7 +126,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -118,7 +136,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programs/JS-Performance/Introducing Web Performance.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Introducing Web Performance"
             }
           },
           {
@@ -130,7 +152,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -138,7 +162,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -161,52 +187,54 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "e3ba5de924186a2d",
+  "active": "1f06900ecd3e969b",
   "lastOpenFiles": [
-    "Programs/JSON Schema/Introduction on JSON Schema.md",
-    "Programs/JSON Schema/Understanding-JSON-Schema.png",
-    "Programs/JSON Schema",
-    "Programs/TidyFirst.md",
-    "Programs/Software Architecture Fundamentals.md",
-    "Programs/Refactoring - Improving the Design of Existing Code.md",
-    "Learning - How to Learn.md",
-    "Programs/Design Patterns/images/factory-diagram 1.png",
-    "Pasted image 20240921120526.png",
-    "Programs/Design Patterns/Design Patterns For Dummies/Summarise.md",
-    "Programs/Design Patterns/Abstract Factory.md",
-    "Programs/Design Patterns/Factory.md",
-    "Programs/Design Patterns/images/abstract-factory-diagram.png",
-    "Programs/Design Patterns/Prototype.md",
-    "Programs/Design Patterns/images/factory-diagram.png",
-    "Programs/Design Patterns/Observer.md",
-    "Programs/Design Patterns/Design Patterns For Dummies/Design Patterns For Dummies.pdf",
-    "Programs/Design Patterns/Design Patterns For Dummies",
-    "Programs/JavaScript/Tagged Template.md",
-    "Programs/Design Patterns/README.md",
-    "Programs/Design Patterns/Proxy.md",
-    "Technical Writing.md",
-    "Setup a new Macbook.md",
+    "Areas/Programming/Functional Programming/Chapter 3. Few data structures, many operations.md",
+    "Areas/Programming/Functional Programming/Functional Programming.md",
+    "Areas/Programming/Design Patterns/OOP.md",
+    "Areas/Programming/Design Patterns/README.md",
+    "Areas/Programming/Design Patterns/images/FactoryMethodPattern-2.png",
+    "Areas/Programming/Design Patterns/images/FactoryMethodPattern-1.png",
+    "Areas/Programming/Design Patterns/images/Design-Principles-5.png",
+    "Areas/Programming/Design Patterns/images/Design-Principles-4.png",
+    "Areas/Programming/Design Patterns/images/Design-Principles-3.png",
+    "Areas/Programming/Design Patterns/images/Design-Principles-2.png",
+    "Areas/Programming/Design Patterns/images/Design-Principles-1.png",
+    "Areas/Programming/Design Patterns/Untitled.md",
+    "Areas/Programming/Design Patterns/Design Patterns For Dummies/Summarise.md",
+    "Areas/Programming/Design Patterns/Design Patterns For Dummies/Design Patterns For Dummies.pdf",
+    "Areas/Programming/Design Patterns/Observer.md",
+    "Areas/Programming/Design Patterns/Prototype.md",
+    "Areas/Programming/Design Patterns/Proxy.md",
+    "Areas/Programming/Refactoring - Improving the Design of Existing Code.md",
+    "Areas/Programming/Software Architecture Fundamentals.md",
     "README.md",
-    "Prompt Engineering Basics.md",
-    "Code Reviews.md",
-    "Career Readiness.md",
-    "Programs/Functional Programming/Functional Programming.md",
-    "TidyFirst.md",
-    "Programs/TidyFirst.md/TidyFirst.md",
-    "Programs/Functional Programming/code-practices/test/either.js",
-    "Programs/JavaScript/Functional Programming/code-practices/test/either-monad copy.js",
-    "Programs/Functional Programming/code-practices/test/config.json",
-    "Programs/Functional Programming/code-practices/test/either-monad.js",
-    "Programs/Functional Programming/FP-Class-v2.pdf",
-    "Programs/Functional Programming/FP-Arch-Class.pdf",
-    "Secrets.md",
-    "Programs/Functional Programming/Chapter 1. Becoming functional.md",
-    "Agile-Scrum/Scrum XP and the trenches/Scrum-and-XP-from-the-Trenches-2nd-edition.pdf",
-    "Programs/Functional Programming/Chapter 4. Toward modular, reusable code.md",
-    "Programs/Security/images/safesinks.png",
-    "Programs/Security/images/cookie-header.png",
-    "Programs/Design Patterns/images/Prototype_Pattern.png",
-    "Programs/Design Patterns/images/Proxy.png",
-    "Pasted image 20240618103210.png"
+    "Resources/Career Readiness.md",
+    "Resources/Code Reviews.md",
+    "Resources/Technical Writing.md",
+    "Resources/Router, Networks, IP Address.md",
+    "Resources/Prompt Engineering Basics.md",
+    "Projects",
+    "Archives/Setup a new Macbook.md",
+    "Archives/Secrets.md",
+    "Untitled.canvas",
+    "Resources",
+    "Areas/Programming",
+    "Areas",
+    "Archives",
+    "Areas/Programming/Functional Programming/code-practices/node_modules/commander/Readme.md",
+    "Areas/Programming/Design Patterns/Abstract Factory.md",
+    "Untitled.md",
+    "2025-01-27.md",
+    "Areas/Programming/Design Patterns/Factory.md",
+    "Areas/Programming/Design Patterns/images/OOP-UML-9.png",
+    "Areas/Programming/Design Patterns/images/OOP-UML-8.png",
+    "Areas/Programming/Design Patterns/images/OOP-UML-7.png",
+    "Areas/Programming/JS-Performance/Introducing Web Performance.md",
+    "Resources/Effective Listening.md",
+    "Areas/Programming/JS-Performance",
+    "Areas/Programming/JSON Schema",
+    "Areas/Programming/Design Patterns/Design Patterns For Dummies",
+    "Areas/Programming/Functional Programming/code-practices/test/either.js"
   ]
 }
