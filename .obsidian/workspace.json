@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dddb352c3dd1b3f8",
+        "id": "275f7987b79b8030",
         "type": "tabs",
         "children": [
           {
-            "id": "1f06900ecd3e969b",
+            "id": "46809242ae41aa57",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Areas/Programming/Functional Programming/FP-Arch-Class.pdf"
+                "file": "Areas/English/Interacting with people at work/Clear and to the point.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "FP-Arch-Class"
+              "icon": "lucide-file",
+              "title": "Clear and to the point"
             }
           }
         ]
@@ -50,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Curry",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 291.5,
+    "collapsed": true
   },
   "right": {
     "id": "a17d2679f8f0aa31",
@@ -187,12 +190,37 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "1f06900ecd3e969b",
+  "active": "46809242ae41aa57",
   "lastOpenFiles": [
-    "Areas/Programming/Functional Programming/Chapter 3. Few data structures, many operations.md",
-    "Areas/Programming/Functional Programming/Functional Programming.md",
+    "Areas/English/Grammar - BritishCouncil/Verb Forms.md",
+    "Areas/English/Interacting with people at work/Clear and to the point.md",
+    "Areas/English/Interacting with people at work",
+    "Areas/English/Grammar - BritishCouncil/Countable and Uncountable Nouns.md",
+    "Areas/English/Grammar - BritishCouncil/Get your articles right.md",
+    "Areas/English/Grammar - BritishCouncil/All about adjectives.md",
+    "Areas/English/Grammar B2/Countable and uncountable nouns.md",
+    "Areas/English/Grammar - BritishCouncil",
+    "Areas/English/Grammar B2/Relative Clause Reduction Rules.md",
+    "Areas/English/Grammar B2/Compound nouns.md",
+    "Areas/English/Grammar B2/Adjectives as nouns.md",
+    "Areas/English/Grammars",
+    "Areas/English/Info writing unit1.png",
+    "Areas/English/Relative Clause Reduction Rules.md",
+    "Areas/English/Notes.md",
+    "Areas/English/Listening Tips.md",
+    "Areas/Programming/Dockers/Introduction to Docker.md",
+    "Areas/Programming/Dockers/Advance Containers.md",
+    "Archives/Secrets.md",
+    "Areas/Programming/Security/XSS (Cross-Site Scripting).md",
     "Areas/Programming/Design Patterns/OOP.md",
     "Areas/Programming/Design Patterns/README.md",
+    "Areas/Programming/Design Patterns/Abstract Factory.md",
+    "Areas/Programming/Design Patterns/Observer.md",
+    "Areas/Programming/Design Patterns/Prototype.md",
+    "Areas/Programming/Design Patterns/Proxy.md",
+    "Areas/Programming/Functional Programming/Functional Programming.md",
+    "Areas/Programming/Functional Programming/Chapter 3. Few data structures, many operations.md",
+    "Areas/Programming/Functional Programming/FP-Arch-Class.pdf",
     "Areas/Programming/Design Patterns/images/FactoryMethodPattern-2.png",
     "Areas/Programming/Design Patterns/images/FactoryMethodPattern-1.png",
     "Areas/Programming/Design Patterns/images/Design-Principles-5.png",
@@ -203,38 +231,13 @@
     "Areas/Programming/Design Patterns/Untitled.md",
     "Areas/Programming/Design Patterns/Design Patterns For Dummies/Summarise.md",
     "Areas/Programming/Design Patterns/Design Patterns For Dummies/Design Patterns For Dummies.pdf",
-    "Areas/Programming/Design Patterns/Observer.md",
-    "Areas/Programming/Design Patterns/Prototype.md",
-    "Areas/Programming/Design Patterns/Proxy.md",
-    "Areas/Programming/Refactoring - Improving the Design of Existing Code.md",
-    "Areas/Programming/Software Architecture Fundamentals.md",
-    "README.md",
-    "Resources/Career Readiness.md",
-    "Resources/Code Reviews.md",
-    "Resources/Technical Writing.md",
-    "Resources/Router, Networks, IP Address.md",
-    "Resources/Prompt Engineering Basics.md",
     "Projects",
-    "Archives/Setup a new Macbook.md",
-    "Archives/Secrets.md",
     "Untitled.canvas",
     "Resources",
     "Areas/Programming",
     "Areas",
     "Archives",
-    "Areas/Programming/Functional Programming/code-practices/node_modules/commander/Readme.md",
-    "Areas/Programming/Design Patterns/Abstract Factory.md",
-    "Untitled.md",
-    "2025-01-27.md",
-    "Areas/Programming/Design Patterns/Factory.md",
     "Areas/Programming/Design Patterns/images/OOP-UML-9.png",
-    "Areas/Programming/Design Patterns/images/OOP-UML-8.png",
-    "Areas/Programming/Design Patterns/images/OOP-UML-7.png",
-    "Areas/Programming/JS-Performance/Introducing Web Performance.md",
-    "Resources/Effective Listening.md",
-    "Areas/Programming/JS-Performance",
-    "Areas/Programming/JSON Schema",
-    "Areas/Programming/Design Patterns/Design Patterns For Dummies",
-    "Areas/Programming/Functional Programming/code-practices/test/either.js"
+    "Areas/Programming/Design Patterns/images/OOP-UML-8.png"
   ]
 }
